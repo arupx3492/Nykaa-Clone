@@ -1,0 +1,114 @@
+ <div id="container7">
+        <div>
+            <div style="display: flex;  margin-bottom: 20px;">
+                <img  src="Logo/Mail-logo.png" alt="mail">
+                <span style="color: white;">Get special discount on your inbox</span>
+            </div>
+            <div>
+                <input style="background-color: rgb(63,65,77); color: white;  margin-right: -10px;" type="email" placeholder="Your Email">
+                <input  type="Submit" value="Send">
+            </div>
+        </div>
+        <div>
+            <div style="display: flex;">
+                <img  src="Logo/Phone.png" alt="small phone">
+                <p style="color: white;">EXPERIENCE THE NYKAA MOBILE APP</p>
+            </div>
+            <div style="display: flex; margin-top: 15px;">
+                <img style="height:30px; width: 60px;" src="Logo/Google-play.png" alt="`gogle play">
+                <img style="height:27px; width: 60px;" src="Logo/App- Store.png" alt="App Store">
+            </div>
+        </div>
+        <div>
+            <div style="display: flex;">
+                <img  src="Logo/Call-ring.png" alt="small phone ring">
+                <span style="color: white; ">FOR ANY HELP YOU MAY CALL US AT</span>
+            </div>
+            <P style="color: white; margin: 20px;">(Monday to Saturday, 8AM to 10PM and Sunday, 10AM to 7PM)</P>
+
+        </div>
+    </div>
+    
+    <!-- Container8 -->
+    <div id="container8">
+        <div>
+            <i style="font-size: xx-large;  ">NYKAA</i>
+            <p style="margin-top: 20px;">Who are we?</p>
+            <p>Careers</p>
+            <p>Authenticity</p>
+            <p>Press</p>
+            <p>Testimonials</p>
+            <p>Nykaa CSR</p>
+
+        </div>
+        <div>
+            <p>Help</p>
+            <p>Contect Us</p>
+            <p>Frequently asked questions</p>
+            <p>Store Locator</p>
+            <p>Cancellation & Return</p>
+            <p>Shipping & Delivery</p>
+            <p>Sell on Nykaa</p>
+        </div>
+        <div>
+            <p>Inspire Me</p>
+            <p>Beauty Book</p>
+            <p>Nykaa Tv</p>
+            <p>Nykaa Network</p>
+            <p>Buying Guides</p>
+        </div>
+        <div>
+            <p>Quick Links</p>
+            <p>Offer Zone</p>
+            <p>New Launches</p>
+            <p>Nykaa Man</p>
+            <p>Nykaa Fashion</p>
+            <p>Nykaa pro</p>
+        </div>
+    </div>
+
+
+
+
+
+/* css part */
+
+#container7{
+    background-color:rgb(63,65,77) ; 
+     display: flex;
+     justify-content: space-evenly;
+     padding: 20px;
+     /* width: auto; */
+}
+#container7>div{
+    width: 200px;
+    line-height: 20px;
+    word-spacing: 5px;
+}
+#container7 img{
+    margin-top: 2px;
+     margin-right: 5px;
+     height: 20px;
+     width: 20px;
+}
+
+/* Container8 */
+#container8{
+    background-color: rgb(140,141,148);
+    display: flex;
+    justify-content: space-evenly;
+}
+#container8>div{
+    color: white;
+    margin: 50px 0px 0px 40px;
+}
+#container8 p{
+    /* color: blue; */
+    margin-bottom: 12px;
+}
+
+
+#container8>div>p:first-child{
+    margin: 5px 0px 30px 0px; 
+    font-size: 18px;
+}

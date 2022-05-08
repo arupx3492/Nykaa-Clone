@@ -1,0 +1,316 @@
+/* This is nav bar section */
+*{
+    margin: 0px;
+}
+nav{
+    display: flex; 
+    justify-content: space-evenly;
+}
+nav:first-child{
+    position: sticky;
+    top: 0px;
+    z-index: 51;
+    /* border: 1px solid red; */
+    height: 35px;
+    justify-content: space-between;
+    background: #FC2779;
+    color: rgb(241, 233, 233);
+   
+}
+.first_nav>div{
+    /* border: 1px solid ; */
+    display: flex; 
+    font-size: larger;
+    font-weight: 800;
+    margin-right: 40px;
+}
+.first_nav>div>div{
+    margin: auto 25px;
+}
+nav:nth-child(2){
+/* border: 1px solid blue; */
+position: sticky;
+top: 30px;
+height: 60px;
+width: 100%;
+background-color: white;
+margin:30px auto;
+z-index: 50;
+}
+
+.sec_nav>div{
+    /* border: 1px solid pink; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3px 20px;
+}
+.sec_nav>img{
+   margin: auto 0px auto 25px;
+    height:35px;
+    width: 10%;
+}
+.sec_nav>div>p{
+    font-size: 16px ;
+    font-weight: 600;
+    margin: 0px 7px;
+}
+.sec_nav>div>p:hover{
+    color: rgb(254, 90, 90);
+}
+
+
+/* #sec_nav {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(1, 70px);
+    gap: 5px;
+    width: 90%;
+    margin: auto;
+   margin-left: 70px;
+    border: gray;
+    position: fixed;
+    top: 0px;
+    background-color: aliceblue;
+} */
+
+
+.third_nav{
+/* border: 1px solid blue; */
+height: 40px;
+margin: 0px 0px 10px 0px;
+}
+.third_nav>p{
+    font-size: large;
+    color: rgb(114, 112, 112);
+    margin: 5px;
+}
+
+
+/* This is makeup tab bar section  */
+.makeupTab{
+    /* border: 1px solid coral;  */
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.makeupTab>div{
+    text-align: center;
+    font-size: larger;
+}
+
+/* This section for images */
+#bigbrand{
+    /* border: 1px solid ; */
+    width: 100%;
+}
+
+
+/* This Section for #container */
+
+/* Container1  */
+#container1{
+    /* border: 1px solid black; */
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 30px;
+}
+#container1>div{
+    /* border: 1px solid green; */
+    /* overflow: hidden; */
+    position: relative;
+    text-align: left;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+#container1>div>img{
+    width: 100%;
+    border-radius: 30px 10px 20px 0px;
+}
+#container1>div>p{
+    font-size: 17px;
+}
+#container1>div>p:nth-child(2){
+    font-size: 19px;
+    color: rgb(255, 4, 255);
+    position: absolute;
+    bottom: 65px;
+}
+
+#container1>div>p:nth-child(4){
+    color: rgb(165, 161, 161);
+}
+
+/* container2 */
+#container2{
+    /* border: 1px solid black; */
+    width: 90%;
+    margin:20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    /* grid-template-rows: repeat(n,auto); */
+    gap: 50px;
+    
+}
+#container2>div{
+    /* border: 1px solid green; */
+    /* overflow: hidden; */
+    position: relative;
+    
+    text-align: left;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+#container2>div>img{
+    /* margin: 0px; */
+    width: 100%;
+    height: 250px;
+}
+#container2>div>p{
+    font-size: 17px;
+    margin: -10px auto;
+    
+}
+#container2>div>p:nth-child(2){
+    font-size: 23px;
+    color: rgb(255, 4, 255);
+    /* margin: 0px; */
+    position: absolute;
+    bottom: 24%;
+    left: 18px;
+}
+
+#container2>div>p:nth-child(4){
+    color: rgb(165, 161, 161);
+    margin-top: 6px;
+}
+
+/* This is container3 */
+#container3{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(169,222,231);
+    
+}
+#container3>div{
+    /* border: 1px solid green; */
+    /* height: 100px;
+    width: 100px; */
+    /* position: relative; */
+    text-align: left;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+#container3>div>img{
+    width:150px ;
+    height:150px ;
+}
+
+/* Container4 */
+#container4{
+    background-color: rgb(169,222,231);
+}
+#container4>img{
+    display: block;
+    margin: auto; 
+}
+
+/* Container5 */
+#container5{
+    /* border: 1px solid black; */
+    /* width: 90%;
+    margin: auto; */
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    /* grid-template-rows: repeat(n,auto); */
+    gap: 50px;
+    margin: 20px ;
+}
+#container5>div{
+    /* border: 1px solid green; */
+    position: relative;
+    text-align: left;
+    line-height: 22px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+#container5>div>img{
+    width: 100%;
+}
+/* #container5>div>p{
+    font-size: 17px;
+} */
+#container5>div>p:nth-child(2){
+    font-size: 23px;
+    color: rgb(255, 4, 255);
+    /* margin: 0px; */
+    position: absolute;
+    bottom: 24%;
+    left: 18px;
+}
+
+/* Container6 */
+#container6{
+    /* border: 1px solid blue; */
+    background-color: rgb(255,154,51);
+    display: flex; 
+    justify-content: space-evenly;
+    /* width: 95%;*/
+    margin:0px 0px auto auto; 
+    margin-bottom: 5px;
+}
+/* #container6>div{
+    width: 100%;
+} */
+
+#container6+img{
+    width: 100%;
+}
+/* Container7 */
+#container7{
+    /* border: 1px solid red; */
+    background-color:rgb(63,65,77) ; 
+     display: flex;
+     justify-content: space-evenly;
+     padding: 22px;
+     /* width: auto; */
+}
+#container7>div{
+    /* border: 1px solid red; */
+    width: 22%;
+    font-size: 15px;
+    line-height: 20px;
+    word-spacing: 5px;
+}
+#container7 img{
+    margin-top: 2px;
+     margin-right: 5px;
+     /* height: 30px; */
+     width: 10%;
+}
+
+/* Container8 */
+#container8{
+    background-color: rgb(140,141,148);
+    display: flex;
+    justify-content: space-evenly;
+}
+#container8>div{
+    color: white;
+    margin: 50px 0px 0px 40px;
+}
+#container8 p{
+    /* color: blue; */
+    margin-bottom: 12px;
+}
+
+
+#container8>div>p:first-child{
+    margin: 5px 0px 30px 0px; 
+    font-size: 18px;
+}
+
