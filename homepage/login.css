@@ -1,5 +1,5 @@
 #container{
-    width: 30%;
+    width: 22%;
     margin:60px auto;
     box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
     padding: 20px;
@@ -44,21 +44,6 @@ form>input:nth-child(9){
     background-color: rgb(252,39,164)  ;             ;
 }
 
-button{
-    width: 80%;
-    height: 30px; 
-    background-color:rgb(252,39,164) ;
-    display: block;
-    margin: 20px auto 50px auto;
-    border: 0px ;
-}
-a{
-    text-decoration: none;
-    
-}
-button:hover{
-    color: white;
-}
 
 
 
