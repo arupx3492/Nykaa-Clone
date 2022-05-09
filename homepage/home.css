@@ -317,3 +317,8 @@ margin: 0px 0px 10px 0px;
     font-size: 18px;
 }
 
+/* change */
+p>a{
+    text-decoration: none;
+    color:  rgb(114, 112, 112);
+}

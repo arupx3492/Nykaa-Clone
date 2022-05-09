@@ -361,6 +361,8 @@ body{
         margin: auto;
         margin-left: 10px;
         margin-top: 10px;
+        /* text-decoration: none; */
+        object-fit: fill;
     }
 
     #sort {
@@ -484,14 +486,15 @@ body{
         font-size: 18px;
     }
     #send{
-        color: aliceblue;
+        color: rgb(230, 234, 237);
         background-color: rgb(63,65,77) ;
         font-weight: bolder;
         padding: 5px 10px 5px 10px;
         border: 1px solid white;
       margin-left: 200px;
-      margin-top: -200px;
+      margin-top: -250px;
       padding-top: -200px;
+    
     }
     #your{
         border: 1px solid white;
