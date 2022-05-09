@@ -1,0 +1,48 @@
+#container{
+    width: 35%;
+    margin: auto;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+}
+.earn{
+    display: block;
+    margin: 20px auto 50px auto;
+
+}
+.earn>span{
+    font-size: 20px;
+    word-spacing: 5px;
+    text-align: center;
+}
+div>span:nth-child(2){
+    color: rgb(252,39,164);
+}
+input{
+    width: 100% ;
+    margin: 20px auto;
+    height: 30px;    
+    border: none;
+}
+/* input:focus~{
+    border: 1px solid blue;
+} */
+
+label{
+    color: rgb(252,39,164);
+    display: block;
+    margin: 25PX auto -20px auto;
+}
+hr{
+    margin-top: -20px;
+    /* margin-bottom: 10px; */
+}
+form>input:nth-child(9){
+    background-color: rgb(252,39,164)  ;             ;
+}
+
+
+
+
