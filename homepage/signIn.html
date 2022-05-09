@@ -18,7 +18,7 @@
         </div>
         
 
-        <form>
+        <form id="form">
             <label for="name">Name</label>
             <input type="text" placeholder="Name" id="name" required> <br> <hr>
 
@@ -31,10 +31,32 @@
             <label for="password">Create Password</label>
             <input type="password" placeholder="Create Password" id="password" required> <br>  <hr>
 
-            <input style="height:30px;width: 80%; display:block; margin:30px auto 0px auto; background-color: rgb(252,39,164)  ;" type="submit" value="REGISTER">
+            <input id="submit" style="height:30px;width: 80%; display:block; margin:30px auto 0px auto; background-color: rgb(252,39,164)  ;" type="submit" value="REGISTER">
         </form>
+        <div>
+           <a  href="login.html"> <button  >Already Have An Account!</button> </a>
+        </div>
 
     </div>
 </body>
 
 </html>
+
+<script>
+    document.querySelector("form").addEventListener("submit",submitFun) ;
+
+    var ragisterArr = JSON.parse(localStorage.getItem("ragisterData")) || [] ;
+    function submitFun(){
+        event.preventDefault() ;
+        var ragisterObj = {
+            Name : form.name.value ,
+            Number: +(form.number.value) ,
+            Email : form.email.value ,
+            Password : form.password.value ,
+        }
+        ragisterArr.push(ragisterObj) ;
+        localStorage.setItem("ragisterData" , JSON.stringify(ragisterArr));
+
+        window.location.href = "login.html" ;
+    }
+</script>

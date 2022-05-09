@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div id="container">
+        <div>
+            <a style="text-decoration: none; color: red;" href="signIn.html">X</a>
+            <h2>LOGIN</h2>
+        </div>
+        
+        <hr>
+        <div class="earn">
+            <span>Login to Earn </span> <span>2000 Reward Points!</span>
+        </div>
+
+        <form id="form">
+            <!-- <label for="name">Name</label>
+            <input type="text" placeholder="Name" id="name" required> <br> <hr> -->
+
+            <label for="number">Email Or Phone Number</label>
+            <input type="text" placeholder="Email Or Phone Number" id="number" required> <br>
+            <hr>
+
+            <!-- <label for="email">Email Address</label>
+            <input type="email" placeholder="Email Address" id="email" required> <br> <hr> -->
+
+            <label for="password">Enter Password</label>
+            <input type="password" placeholder="Enter Password" id="password" required> <br>
+            <hr>
+
+            <input id="login"
+                style="height:30px;width: 80%; display:block; margin:30px auto 0px auto; background-color: rgb(252,39,164)  ;"
+                type="submit" value="LOGIN">
+        </form>
+
+    </div>
+</body>
+
+</html>
+
+<script>
+    var ragisterData = JSON.parse(localStorage.getItem("ragisterData"));
+
+    var count = 0; var pass = 0;
+    dataFun(ragisterData);
+
+    function dataFun(data) {
+        // console.log(data) ;
+
+        document.querySelector("form").addEventListener("submit", function () {
+            event.preventDefault();
+
+            data.forEach(function (ele) {
+                // console.log(ele) ;
+
+                var nuOREmail = document.querySelector("#number").value;
+                var password = document.querySelector("#password").value;
+
+                if (+(nuOREmail) == ele.Number || nuOREmail == ele.Email) {
+                    // console.log(nuOREmail) ;
+                    // console.log(ele) ;
+                    // console.log(ele.email) ;
+
+                    if (password == ele.Password) {
+                        pass++;
+                        localStorage.setItem("updateName", JSON.stringify(ele));
+                    }
+                  
+                }
+                else {
+                    count++;
+                }
+
+            })
+            // console.log(typeof(count)) ;
+            // console.log(typeof(data.length ));
+            if (count == data.length) {
+                alert("Check Email Or Number");
+            }
+            if (pass > 0) {
+                alert("Login Successful");
+               
+                window.location.href = "home_update.html";
+            }
+            else {
+                        alert("Check Password");
+                    }
+
+        })
+    }
+
+
+</script>

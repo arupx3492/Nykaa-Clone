@@ -1,6 +1,7 @@
 /* This is nav bar section */
 *{
     margin: 0px;
+    font-family: sans-serif ;
 }
 nav{
     display: flex; 
@@ -278,6 +279,7 @@ margin: 0px 0px 10px 0px;
      justify-content: space-evenly;
      padding: 22px;
      /* width: auto; */
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #container7>div{
     /* border: 1px solid red; */
@@ -298,6 +300,7 @@ margin: 0px 0px 10px 0px;
     background-color: rgb(140,141,148);
     display: flex;
     justify-content: space-evenly;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #container8>div{
     color: white;
