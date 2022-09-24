@@ -5,7 +5,7 @@ This is a clone of Nykka which is a fashion website which is a website that sell
 * Here the link of our website deployed on netlify : https://famous-conkies-aaaea0.netlify.app/
 ----------------------------
 # Our Team Members :
-* ### Amit Chohan
+* ### Amit Chouhan
 * ### Arup Mahato
 * ### Arjun Hore
 * ### Shubham Garg
