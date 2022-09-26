@@ -23,6 +23,14 @@ This is a clone of Nykka which is a fashion website which is a website that sell
 * Payment page
 
 ---------------------------
+# Screenshots
+
+<img src="https://i.imgur.com/a1mdt8r.png" width="100%" alt="image" />
+
+<img src="https://i.imgur.com/CatUKRa.png" width="100%" alt="image" />
+
+<img src="https://i.imgur.com/uAhV0bY.png" width="100%" alt="image" />
+---------------------------
 
 # Tech Stack 
  
